@@ -13,6 +13,11 @@ module.exports = {
     contentBase: path.join(__dirname, "dist"),
     port: 9000
   },
+  optimization:{
+    splitChunks: {
+      chunks: 'all'
+    }
+  },
   module: {
     rules: [{
       test: /\.js$/,
