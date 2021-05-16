@@ -13,3 +13,8 @@ To run webpack with custom config file name use this command
         
         npx webpack --config my.custom.webpack.config.js
 so webpack will look config file with name **"my.custom.webpack.config.js"**.
+
+## Useful Flags
+
+**--config <filename>** - webpack looks for config with filename.
+**-w** - watches for file changes and rerun the webpack.
