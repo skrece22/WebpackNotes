@@ -1,0 +1,19 @@
+{
+  "name": "webpack_basic",
+  "version": "1.0.0",
+  "description": "Learning about webpack 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "preprocessing"
+  ],
+  "author": "Santhoshkumar",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
