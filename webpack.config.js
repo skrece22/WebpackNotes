@@ -1,5 +1,7 @@
 const path = require('path');
 
+const UglifyJsWebpackPlugin = require('uglifyjs-webpack-plugin')
+
 module.exports = {
   entry: {
     about:"./src/about.js",
@@ -14,6 +16,7 @@ module.exports = {
     port: 9000
   },
   optimization:{
+    minimizer: [new UglifyJsWebpackPlugin()],
     splitChunks: {
       chunks: 'all'
     }
